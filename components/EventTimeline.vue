@@ -1,4 +1,4 @@
-<template>
+<template class="grey">
   <v-timeline align-top :dense="true">
     <v-timeline-item
       v-for="(item, i) in timeline"

@@ -1,6 +1,5 @@
-<template >
-
-  <v-app class="white">
+<template>
+<v-content class="white">
     <NavBar></NavBar>
     <v-content >
     <v-card black>
@@ -9,7 +8,7 @@
         </v-card-title>
     </v-card>
       <!-- lOGIN modal-->
-      <v-card width="400" class="mx-auto mt-5 black">
+      <v-card width="400" class="mx-auto mt-5 grey">
         <v-card-title>
                 <h2 class="display-2"> Login</h2>
         </v-card-title>
@@ -35,7 +34,7 @@
       </v-card>
     </v-content>
     <FooterComponent></FooterComponent>
-  </v-app>
+  </v-content>
 </template>
 
 <script>

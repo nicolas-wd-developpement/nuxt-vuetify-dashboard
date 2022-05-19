@@ -1,15 +1,15 @@
 <template>
-  <div>
+  <div class="white">
     <h1>Dashboard</h1>
     <NavBar></NavBar>
     <v-row>
-      <v-col v-for="sale in sales" :key="`${sale.title}`" >
+      <v-col v-for="sale in sales" :key="`${sale.title}`" cols=12 md=4 >
       <SalesGraph :sale="sale" />
       </v-col>
     </v-row>
 
     <v-row>
-      <v-col v-for="statistic in statistics" :key="`${statistic.title}`">
+      <v-col v-for="statistic in statistics" :key="`${statistic.title}`" cols=6 md=3>
            <StatisticCard
             :statistic="statistic"
             />
@@ -24,7 +24,7 @@
             <EventTimeline :timeline="timeline" />
       </v-col>
     </v-row>
-    <v-snackbar v-model="snackbar">
+    <v-snackbar v-model="snackbar" :left=$vuetify.breakpoint.lgAndUp>
       You have selected {{ selectedEmployee.name }},
       {{ selectedEmployee.title }}
       <v-btn color="pink" text @click="snackbar = false">
@@ -75,3 +75,9 @@ export default {
   }
 }
 </script>
+<style>
+.v-application .white {
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+</style>

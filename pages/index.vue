@@ -1,5 +1,4 @@
-<template >
-
+<template>
   <v-app class="white">
     <NavBar></NavBar>
     <v-content >

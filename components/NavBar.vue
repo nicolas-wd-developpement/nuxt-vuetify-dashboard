@@ -6,6 +6,7 @@
         <v-btn text rounded to="/">Home</v-btn>
          <v-btn text rounded to="/dashBoard">Dash Board</v-btn>
         <v-btn text rounded to="/login">Login</v-btn>
+        <v-btn text rounded to="/signUp">Sign Up</v-btn>
     </v-app-bar>
 </template>
 

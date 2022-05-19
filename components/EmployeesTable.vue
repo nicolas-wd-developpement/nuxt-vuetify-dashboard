@@ -1,4 +1,4 @@
-<template>
+<template class="white">
   <v-data-table
     :headers="headers"
     :items="employees"
@@ -39,4 +39,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.white{
+  background-color: white;
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <v-row>
+  <v-row class="white">
     <v-col class="text-center">
       <img src="/v.png" alt="Vuetify.js" class="mb-5" />
       <blockquote class="blockquote">
@@ -19,3 +19,9 @@ export default {
   name: 'InspirePage',
 }
 </script>
+<style>
+.v-application .white {
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+</style>
