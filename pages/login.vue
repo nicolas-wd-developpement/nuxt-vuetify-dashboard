@@ -69,4 +69,7 @@ export default {
 .display-1 {
     color: black;
 }
+.display-2 {
+    color: white;
+}
 </style>

@@ -9,9 +9,9 @@
         </v-card-title>
     </v-card>
       <!-- lOGIN modal-->
-      <v-card width="400" class="mx-auto mt-5 black">
+      <v-card width="400" class="mx-auto mt-5 white">
         <v-card-title>
-                <h2 class="display-2"> WELCOME</h2>
+                <h2 class="display-3"> WELCOME</h2>
         </v-card-title>
       </v-card>
     </v-content>
@@ -47,7 +47,16 @@ export default {
 .v-main{
   padding-top: 60px !important;
 }
-.display-1 {
+.display-2 {
     color: black;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.display-3 {
+    color: black;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 20px;
 }
 </style>
